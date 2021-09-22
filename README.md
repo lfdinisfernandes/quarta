@@ -1,2 +1,2 @@
-Name|Email|Address|
+Name|
 |----|-----|-------|
