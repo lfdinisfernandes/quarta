@@ -1,12 +1,17 @@
+module.exports = 
 function adicionar(){
-    
-    let text = document.getElementById("texto").value;
-    let list = document.getElementById("lista").innerHTML;
+        
+  let Nome = document.getElementById("texto").value;
+  let sobreNome = document.getElementById("textos").value;
+  let list = document.getElementById("lista").innerHTML;
 
-    list += "<li>" +text+ "</li>"
-    console.log(text)
+  list += "<li>" +Nome+ "</li>"
+  console.log(Nome);
 
-    document.getElementById("lista").innerHTML = list;
+  list += "<li>" +sobreNome+ "</li>"
+  console.log(sobreNome);
 
-    document.getElementById("texto").value = null;
-};
+  document.getElementById("lista").innerHTML = list;
+  document.getElementById("texto").value = null;
+  document.getElementById("textos").value = null;
+}
